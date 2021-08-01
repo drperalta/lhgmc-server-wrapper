@@ -5,8 +5,8 @@ const ScriptServer = require('scriptserver');
 const { getFormattedTime } = require('./utils');
 
 // VARIABLES
-const NOTIF_CHANNEL = '871052950527692830';
-const CHAT_CHANNEL = '871054344458473503';
+const NOTIF_CHANNEL = process.env.NOTIF_CHANNEL_ID.toString();
+const CHAT_CHANNEL = process.env.CHAT_CHANNEL_ID.toString();
 
 // INSTANCES
 const discordClient = new Client();
@@ -162,6 +162,6 @@ minecraftServer.on('logout', ({ player }) => {
 })
 
 
-discordClient.login('ODY4ODc3NzcyNDAyMDgxODEy.YP2Dew.jT692qkHkkK3SUBuWIx1kzQGkF8');
+discordClient.login(process.env.DISCORD_BOT_TOKEN);
 
 minecraftServer.start();

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
     "rcon-client": "^4.2.3",
     "scriptserver": "^1.2.0",
     "scriptserver-event": "^1.1.1"
