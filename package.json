@@ -1,0 +1,20 @@
+{
+  "name": "lhmc-v1.1-072321",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "rcon-client": "^4.2.3",
+    "scriptserver": "^1.2.0",
+    "scriptserver-event": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
